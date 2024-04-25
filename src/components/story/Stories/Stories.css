@@ -1,0 +1,21 @@
+.wrapper{
+    width: 580px;
+    overflow-x: scroll;
+    margin: auto;
+    scrollbar-width: none;
+
+}
+.stories-wrapper{
+    display: flex;
+    width: fit-content;
+    gap: 10px;
+    box-shadow: 0 0 5px grey;
+}
+.control-arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    
+}

@@ -1,0 +1,40 @@
+.story-container{
+    width: calc(580px/4.3);
+    height: 250px;
+    border-radius:10px ;
+    /* border:solid 2px blue; */
+    position: relative;
+    overflow: hidden;
+}
+
+.story-image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+}
+.story-profile-pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    overflow: hidden;
+    border: blue solid 3px;
+}
+.story-profile-pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+.username{
+    color: white;
+    
+}
